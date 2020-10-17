@@ -1,5 +1,5 @@
 <template>
-  <h2>BookSelf</h2>
+  <h2>BookShelf</h2>
   <form @submit.prevent="addBook">
     <label for="title">Judul Buku</label>
     <input autocomplete="off" id="title" v-model="title" />
